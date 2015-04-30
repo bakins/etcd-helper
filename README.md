@@ -20,7 +20,7 @@ cluster.
 
 ## Usage
 
-`etcd-helper only needs to talk to one etcd node in the cluster.
+`etcd-helper` only needs to talk to one etcd node in the cluster.
 That node can be a proxy. You may need to bootstrap a single etcd node
 for initial setup.
 
