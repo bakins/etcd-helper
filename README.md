@@ -45,8 +45,8 @@ it in `$PATH`
 * ETCD_PEERS - comma seperated list of other etcd nodes to use to
   attempt automatic cluster join/proxy.  It will try all of these in
   order. Note: this is the "client" url of the etcd nodes.
-* ETCD_MEMBERS - maximum number of etcd nodes in the cluser. any nodes
-  starte dusing the helper once this number is met will start in proxy
+* ETCD_MEMBERS - maximum number of etcd nodes in the cluser. Any nodes
+  started using the helper once this number is met will start in proxy
   mode. No attempt is made to automatically switch modes on member failure.
 
 
