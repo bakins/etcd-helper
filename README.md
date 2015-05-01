@@ -11,12 +11,10 @@ present in the cluster.
 
 Using
 [discovery](https://github.com/coreos/etcd/blob/master/Documentation/clustering.md#etcd-discovery)
-is generally the perferred way to initialize a cluster.  However, I
-have had issues with it and it requires knowing a URL ahead of time
-and bootstrapping the cluster in a set amount of time.
+is generally the perferred way to initialize a cluster. This helper
+was written to dig into etcd a bit and to offer an alternative for a
+few specific experimental.
 
-`etcd-helper` is meant for a more "hands-off" approach to an etcd
-cluster.
 
 ## Usage
 
